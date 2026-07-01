@@ -1,0 +1,14 @@
+services:
+  client:
+    build:
+      context: ./Client
+    image: my-app-client
+    stdin_open: true
+    tty: true
+
+  vendor:
+    build:
+      context: ./Vendor
+    image: my-app-vendor
+    stdin_open: true
+    tty: true

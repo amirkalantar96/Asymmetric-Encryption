@@ -1,0 +1,3 @@
+Vendor/keys/*.pem
+__pycache__/
+*.pyc
